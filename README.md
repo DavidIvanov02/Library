@@ -2,4 +2,5 @@
 
 ## Summary
 
-Project aim is to monitor the distribution of the calculations of the experimental ATLAS in the CENTER and reviewing the current state and load of the computer resources, how many CPUs are currently available. The whole process is visualized through interactive diagrams.
+The project is a one simple library for books. In that system there is only one "Manager", who can do CRUD operations with books, as well he can find a book. Also he can manage authors, reciepents and other stuff about books.
+
