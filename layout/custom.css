@@ -1,0 +1,54 @@
+/* Body */
+body
+{
+    background: url(images/banner.png);
+    background-size: cover;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    -ms-background-size: cover;
+    min-height: 900px;
+    background-repeat: no-repeat;
+}
+
+/* Headings */
+h1, h2, h3, h4, h5, h6
+{
+    color: white;
+}
+
+/* Main Table */
+
+#main-table
+{
+    width: 100%;
+    table-layout: fixed;
+    background-color: #000000;
+    color: #FFFFFF;
+    border-color: #32383e;
+}
+
+#default-table
+{
+    background-color: #000000;
+    color: #FFFFFF;
+}
+/* Links */
+
+a#default
+{
+    text-decoration: none;
+}
+
+a#default:hover
+{
+    color: yellow;
+}
+
+/* Horizontal Line */
+
+hr
+{
+    background-color:#0069d9;
+}
+

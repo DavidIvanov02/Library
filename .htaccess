@@ -1,0 +1,30 @@
+# Invoke RewriteEngine On
+    RewriteEngine On
+	
+	ErrorDocument 404 http://localhost/library/404/
+	Options -Indexes
+
+# Add Trailing Slash If Missing
+	RewriteCond %{REQUEST_URI} /+[^\.]+$
+	RewriteRule ^(.+[^/])$ %{REQUEST_URI}/ [R=301,L]
+	
+#ReWrite
+	RewriteRule 404/$ 404.php
+	RewriteRule home/$ index.php
+
+	RewriteRule login/$ login.php
+	RewriteRule logout/$ logout.php
+
+	RewriteRule find_book/$ find_book.php
+	RewriteRule find_author/$ find_author.php
+	RewriteRule find_recipient/$ find_recipient.php
+
+
+	RewriteRule searched_book/$ searched_book.php
+	RewriteRule searched_author/$ searched_author.php
+	RewriteRule searched_recipient/$ searched_recipient.php
+
+	RewriteRule add/$ add_book.php
+	RewriteRule view/$ view_book.php
+	RewriteRule edit/$ edit_book.php
+	RewriteRule delete/$ delete_book.php
